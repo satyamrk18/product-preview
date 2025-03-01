@@ -1,0 +1,33 @@
+.container {
+    display: block;
+    margin: 10px auto;
+  }
+  .main-image {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto;
+  }
+
+  .preview-images {
+    height: 70px;
+    width: 70px;
+    border: 2px solid black;
+    border-radius: 5px;
+    object-fit: contain;
+    display: block;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  .preview-images:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  .lower-image {
+    display: flex;
+    justify-content: center;
+  }
